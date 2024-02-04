@@ -17,7 +17,9 @@ export default {
         "textClr": ["var(--text-clr)"],
         "grayishBlue": ["var(--grayishBlue)"],
         "darkDesaturatedBlue": ["var(--darkDesaturatedBlue)"],
-        "darkGrayBlue": ["var(--darkGrayBlue)"]
+        "darkGrayBlue": ["var(--darkGrayBlue)"],
+        "lightModerateCyan": ["var(--lightModerateCyan)"],
+        "darkModerateCyan": ["var(--darkModerateCyan)"]
       },
     
     },

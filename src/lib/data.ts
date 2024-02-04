@@ -15,6 +15,10 @@ import ConeD from "../assets/images/desktop/image-gallery-cone.jpg";
 import ConeM from "../assets/images/mobile/image-gallery-cone.jpg";
 import SugarCubesD from "../assets/images/desktop/image-gallery-sugarcubes.jpg";
 import SugarCubesM from "../assets/images/mobile/image-gallery-sugar-cubes.jpg";
+import Facebook from "../assets/images/icon-facebook.svg";
+import Instagram from "../assets/images/icon-instagram.svg";
+import Twitter from "../assets/images/icon-twitter.svg";
+import Pinterest from "../assets/images/icon-pinterest.svg";
 
 
 
@@ -23,22 +27,30 @@ export const links = [
     {
         id: "1",
         name: "About",
-        url:"#about"
+        url:"#about",
+        animate: "fade-up",
+        delay: "100"
     },
     {
         id: "2",
         name: "Services",
-        url:"#services"
+        url:"#services",
+        animate: "fade-up",
+        delay: "200"
     },
     {
         id: "3",
         name: "Projects",
-        url:"#projects"
+        url:"#projects",
+        animate: "fade-up",
+        delay: "300"
     },
     {
         id: "4",
         name: "Contact",
-        url:"#contact"
+        url:"#contact",
+        animate: "fade-up",
+        delay: "400"
     },
 ] as const;
 
@@ -155,3 +167,34 @@ export const projectData = [
         delay: "700"
     },
 ] as const;
+
+export const socialsData = [
+    {
+        id: "1",
+        alt: "facebook icon",
+        image: Facebook,
+        animate: "zoom-i",
+        delay: "200"
+    },
+    {
+        id: "2",
+        alt: "instagram icon",
+        image: Instagram,
+        animate: "zoom-i",
+        delay: "300"
+    },
+    {
+        id: "3",
+        alt: "twitter icon",
+        image: Twitter,
+        animate: "zoom-i",
+        delay: "400"
+    },
+    {
+        id: "4",
+        alt: "pinterest icon",
+        image: Pinterest,
+        animate: "zoom-i",
+        delay: "500"
+    },
+]as const;
