@@ -16,9 +16,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
 
 ### The challenge
 
@@ -35,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pads-sama/sunnyside-agency-landing-page)
-- Live Site URL: [Add live site URL here](https://sunnyside-agency-landing-page-pi-nine.vercel.app/)
+- Solution URL: []()
+- Live Site URL: [Live Preview](https://sunnyside-agency-landing-page-pi-nine.vercel.app/)
 
 ## My process
 
