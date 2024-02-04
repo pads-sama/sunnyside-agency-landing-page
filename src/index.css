@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #3dbeff;
+    --yellow: #fad400;
+    --text-clr: #5a636c;
+    --graphicDesignText: #25564b;
+    --photographyText: #19536b;
+
+    --fraunces: "Fraunces", serif;
+    --barlow: "Barlow", sans-serif;
+
+}
+
+/* html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+} */
+
+body {
+    font-family: var(--barlow);
+    background-color: #f9fafb;
+}
+
+.transition {
+    transition: all .2s ease-in-out;
+}
+
+/* .hero {
+    height: calc(100dvh - 6.25rem);
+} */
+
+.skew {
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(-40deg);
+    transform-origin: 50% 50%;
+}
+
+.slide-up {
+    animation: slide-up .5s ease forwards;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
