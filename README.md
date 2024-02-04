@@ -14,7 +14,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
