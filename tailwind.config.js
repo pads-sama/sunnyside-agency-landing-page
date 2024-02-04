@@ -13,7 +13,11 @@ export default {
       colors:{
         "yellow": ["var(--yellow)"],
         "photographyText": ["var(--photographyText)"],
-        "graphicDesignText": ["var(--graphicDesignText)"]
+        "graphicDesignText": ["var(--graphicDesignText)"],
+        "textClr": ["var(--text-clr)"],
+        "grayishBlue": ["var(--grayishBlue)"],
+        "darkDesaturatedBlue": ["var(--darkDesaturatedBlue)"],
+        "darkGrayBlue": ["var(--darkGrayBlue)"]
       },
     
     },

@@ -5,13 +5,18 @@ import Testimonials from "./testimonials";
 
 export default function Services() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
   }, []);
   return (
     <section id="services" className="overflow-hidden">
       <div className="grid | md:grid-cols-2">
         {servicesData.map((service) => (
-          <article key={service.id} className="grid |">
+          <article key={service.id} className="grid overflow-hidden">
             <figure
               className={`${
                 service.id === "1"
@@ -44,10 +49,22 @@ export default function Services() {
                 data-aos-delay="300"
                 className="absolute bottom-0 h-[20rem] flex flex-col items-center justify-center gap-5 max-w-[30rem] my-0 mx-auto | md:h-[10rem] | lg:h-[15rem]"
               >
-                <h1 className="text-3xl text-wrap font-fraunces font-bold | md:text-4xl ">
+                <h1
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-once={true}
+                  data-aos-delay="100"
+                  className="text-3xl text-wrap font-fraunces font-bold | md:text-4xl "
+                >
                   {service.title}
                 </h1>
-                <p className="text-center font-medium px-6 | lg:text-xl">
+                <p
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-once={true}
+                  data-aos-delay="300"
+                  className="text-center font-medium px-6 | lg:text-xl"
+                >
                   {service.description}
                 </p>
               </div>

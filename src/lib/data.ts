@@ -7,6 +7,14 @@ import photographyM from "../assets/images/mobile/image-photography.jpg";
 import Emily from "../assets/images/image-emily.jpg";
 import Thomas from "../assets/images/image-thomas.jpg";
 import Jennie from "../assets/images/image-jennie.jpg";
+import MilkBottlesD from "../assets/images/desktop/image-gallery-milkbottles.jpg";
+import MilkBottlesM from "../assets/images/mobile/image-gallery-milkbottles.jpg";
+import OrangeD from "../assets/images/desktop/image-gallery-orange.jpg";
+import OrangeM from "../assets/images/mobile/image-gallery-orange.jpg";
+import ConeD from "../assets/images/desktop/image-gallery-cone.jpg";
+import ConeM from "../assets/images/mobile/image-gallery-cone.jpg";
+import SugarCubesD from "../assets/images/desktop/image-gallery-sugarcubes.jpg";
+import SugarCubesM from "../assets/images/mobile/image-gallery-sugar-cubes.jpg";
 
 
 
@@ -79,7 +87,9 @@ export const testimonialsData =[
         image: Emily,
         alt:  "profile picture of Emily",
         role: "Marketing Director",
-        text: "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
+        text: "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+        animate: "fade-up",
+        delay: "100"
     },
     {
         id: "2",
@@ -87,7 +97,9 @@ export const testimonialsData =[
         image: Thomas,
         alt: "profile picture of Thomas",
         role: "Chief Operating Officer",
-        text: "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience."
+        text: "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
+        animate: "fade-up",
+        delay: "300"
     },
     {
         id: "3",
@@ -95,6 +107,51 @@ export const testimonialsData =[
         image: Jennie,
         alt: "profile picture of Jennie",
         role: "Business Owner",
-        text: "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
+        text: "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+        animate: "fade-up",
+        delay: "400"
     },
 ]as const;
+
+export const projectData = [
+    {
+        id: "1",
+        alt: "image of milk bottles",
+        images: {
+            imgD:  MilkBottlesD,
+            imgM: MilkBottlesM
+        },
+        animate: "zoom-in",
+        delay: "100"
+    },
+    {
+        id: "2",
+        alt: "image of orange fruit",
+        images: {
+            imgD:  OrangeD,
+            imgM: OrangeM
+        },
+        animate: "zoom-in",
+        delay: "300"
+    },
+    {
+        id: "3",
+        alt: "image of an icecream cone",
+        images: {
+            imgD:  ConeD,
+            imgM: ConeM
+        },
+        animate: "zoom-in",
+        delay: "500"
+    },
+    {
+        id: "4",
+        alt: "image of sugar cubes",
+        images: {
+            imgD:  SugarCubesD,
+            imgM: SugarCubesM
+        },
+        animate: "zoom-in",
+        delay: "700"
+    },
+] as const;
